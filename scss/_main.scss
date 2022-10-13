@@ -1,0 +1,25 @@
+.main {
+  height: 100vh;
+  padding: 90px 35px;
+  width: 70%;
+  background: url("../images/main.jpg") no-repeat;
+  background-size: cover;
+  background-position: left 100% top 0px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  &-title {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+.header-mobile {
+  display: none;
+}

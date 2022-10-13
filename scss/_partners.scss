@@ -1,0 +1,25 @@
+.partners {
+  margin: 60px 0;
+  padding: 80px 30px 20px;
+  &-title {
+    &-name {
+      bottom: 40%;
+      left: 15%;
+      &:after {
+        right: -90%;
+        top: 50%;
+      }
+    }
+  }
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  &-items {
+    img {
+      width: 130px;
+    }
+  }
+}

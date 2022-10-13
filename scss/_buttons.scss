@@ -1,0 +1,91 @@
+.btn {
+  display: block;
+  margin: 16px auto 0;
+  width: 197px;
+  height: 51px;
+  padding: 14px 28px;
+  border: 2px solid $main-color;
+  border-radius: 12px;
+  cursor: pointer;
+  &-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: $main-color;
+    text-decoration: none;
+    transition: 0.5s all;
+    &-main {
+      color: #fff;
+    }
+  }
+  &:hover {
+    background-color: $main-color;
+    transition: 0.5s all;
+  }
+  &:hover > .btn-link {
+    color: #fff;
+    transition: 0.5s all;
+  }
+  &-main {
+    width: 177px;
+    height: 56px;
+    background: $main-color;
+    transition: 0.5s all;
+    &:hover {
+      background-color: #f5f5f5;
+      transition: 0.5s all;
+    }
+    &:hover > .btn-link {
+      color: $main-color;
+      transition: 0.5s all;
+    }
+  }
+  &-contacts {
+    width: 324px;
+    height: 43px;
+    padding: 8px 28px;
+    margin-top: 45px;
+    background-color: #fff;
+  }
+  &-news {
+    background-color: $main-color;
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.5s all;
+    &:hover {
+      background-color: #e8e8e8;
+      transition: 0.5s all;
+      color: $main-color;
+    }
+  }
+  &-product {
+    background: $main-color;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 40px;
+    transition: 0.5s all;
+    &:hover {
+      background-color: #e8e8e8;
+      transition: 0.5s all;
+      color: $main-color;
+    }
+  }
+  &-mobile {
+    display: none;
+  }
+  &-submit {
+    width: 100%;
+    background-color: $main-color;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+}

@@ -1,0 +1,90 @@
+$main-color: #ed3237;
+
+/* sidebar */
+@import "_sidebar.scss";
+
+/* buttons */
+@import "_buttons.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  margin: 0 30px 0 30%;
+}
+
+.promo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Оснащение операционной палаты под ключ */
+@import "_main.scss";
+
+/* Почему выбирают нас? */
+@import "_advantages.scss";
+
+/* titles */
+@import "_section-title.scss";
+
+/* Категории оборудования */
+@import "_categories.scss";
+
+/* Популярные продукты */
+@import "_popular.scss";
+
+/* О компании */
+@import "_about-company.scss";
+
+/* Новости */
+@import "_news.scss";
+
+/* Схема работы */
+@import "_scheme.scss";
+
+/* Награды и сертификаты  */
+@import "_awards.scss";
+
+/* Наши партнеры */
+@import "_partners.scss";
+
+/* Наши контакты */
+@import "_contacts.scss";
+
+/* Footer */
+@import "_footer.scss";
+
+/* pages */
+/* О компании */
+@import "pages/_path.scss";
+@import "pages/_pageHeader.scss";
+@import "pages/_aboutCompany.scss";
+
+/* Наши контакты */
+@import "pages/_contactsPage.scss";
+
+/* Новости */
+@import "pages/_newsPage.scss";
+
+/* Наши партнеры */
+@import "pages/_partnersPage.scss";
+
+/* Каталог */
+@import "pages/cataloguePage.scss";
+
+/* pagination */
+@import "_pagination.scss";
+
+/* adapted */
+@import "_adaptive.scss";
+
+/* modals */
+@import "_modal.scss";

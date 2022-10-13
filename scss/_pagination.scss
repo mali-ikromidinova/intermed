@@ -1,0 +1,38 @@
+.pagination {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-nums {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  &-btn,
+  &-btn-prev,
+  &-btn-next {
+    width: 40px;
+    height: 40px;
+    background: #ecedee;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+    cursor: pointer;
+    transition: all 0.5s;
+    &-active {
+      background-color: $main-color;
+      color: #fff;
+    }
+    &:hover {
+      border: 1px solid $main-color;
+      color: $main-color;
+      transition: all 0.5s;
+    }
+  }
+}

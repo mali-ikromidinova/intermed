@@ -1,0 +1,146 @@
+.sidebar {
+  width: 30%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f5f5f5;
+  padding: 22px 0;
+  z-index: 20;
+}
+
+.logo {
+  cursor: pointer;
+  &-img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.nav {
+  margin-top: 32px;
+  &-menu {
+    list-style-type: none;
+  }
+  &-item {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    &-active {
+      background-color: #fff;
+      color: $main-color;
+    }
+    &:hover {
+      background-color: #fff;
+      transition: all 0.5s;
+    }
+  }
+  &-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #242424;
+    text-decoration: none;
+    transition: all 0.5s;
+    &-active {
+      color: $main-color;
+    }
+    &:hover {
+      color: $main-color;
+      transition: all 0.5s;
+    }
+  }
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 16px;
+  transition: all 0.5s;
+  &:hover {
+    background-color: #fff;
+    transition: all 0.5s;
+  }
+  i {
+    color: $main-color;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #242424;
+    transition: all 0.5s;
+    &:hover {
+      color: $main-color;
+      transition: all 0.5s;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  &-item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all linear;
+    &:hover {
+      transition: 0.5s all linear;
+      i {
+        color: #fff;
+      }
+    }
+    i {
+      color: #828282;
+      font-size: 18px;
+    }
+    &-tg {
+      &:hover {
+        background-color: #039be5;
+      }
+    }
+    &-fb {
+      &:hover {
+        background-color: #3b5998;
+      }
+    }
+    &-inst {
+      &:hover {
+        background: linear-gradient(
+          135deg,
+          #fade1e 0%,
+          #f83286 53.96%,
+          #9843f9 100%
+        );
+      }
+    }
+    &-yt {
+      &:hover {
+        background-color: #ff0000;
+      }
+    }
+  }
+}
+
+.header {
+  &-full {
+    &-close {
+      display: none;
+    }
+  }
+}

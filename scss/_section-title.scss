@@ -1,0 +1,70 @@
+.title {
+  position: relative;
+  &-wrapper {
+    position: relative;
+    top: -85px;
+    padding: 0 30px;
+    margin: 70px 0;
+  }
+  &-link {
+    display: inline-block;
+    right: 0;
+    position: absolute;
+    bottom: 6px;
+    a {
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+      color: $main-color;
+      text-decoration: none;
+      margin-right: 8px;
+      transition: 0.5s all;
+      &:hover {
+        margin-right: 12px;
+        transition: 0.5s all;
+      }
+    }
+    i {
+      color: $main-color;
+    }
+  }
+  &-num {
+    font-weight: 600;
+    font-size: 128px;
+    text-align: center;
+    line-height: 145px;
+    color: rgba(224, 224, 224, 0.6);
+    z-index: 1;
+    &-left {
+      top: -85px;
+      left: -40px;
+    }
+    &-left {
+      text-align: left;
+      position: absolute;
+    }
+  }
+  &-name {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #242424;
+    z-index: 2;
+    &-left {
+      bottom: 40%;
+      left: 25%;
+      &:after {
+        content: "";
+        width: 180px;
+        height: 1px;
+        border-bottom: 4px solid $main-color;
+        position: absolute;
+        z-index: 1;
+      }
+    }
+  }
+}

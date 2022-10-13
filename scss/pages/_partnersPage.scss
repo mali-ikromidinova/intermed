@@ -1,0 +1,116 @@
+.partnersPage {
+  padding: 40px 30px;
+  background: url("../images/bg.jpg");
+  background-size: 70%;
+  object-fit: cover;
+  background-position: center;
+  &-list {
+    padding: 40px 30px;
+  }
+  &-intro {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+  }
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  &-link {
+    display: block;
+    text-decoration: none;
+  }
+  &-block {
+    width: 279px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 32px 16px;
+    position: relative;
+    margin-bottom: 4px;
+    transition: all 0.5s ease-in;
+    &:hover {
+      border: 1px solid $main-color;
+      transition: all 0.5s ease-in;
+    }
+    &-img {
+      width: 200px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 18px;
+    }
+    &-title {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #242424;
+      margin-bottom: 8px;
+    }
+    &-descr {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 140%;
+      color: #242424;
+    }
+    &-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      position: absolute;
+      bottom: 40px;
+      i {
+        color: $main-color;
+      }
+      a {
+        color: $main-color;
+        text-decoration: none;
+      }
+    }
+  }
+  &-selected {
+    padding: 40px 30px;
+    &-block {
+      background-color: #fff;
+      padding: 32px;
+      border-radius: 12px;
+    }
+    &-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+    }
+    &-brief {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      color: #bdbdbd;
+    }
+    &-text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #000000;
+      margin: 16px 0;
+    }
+    &-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 40px 0;
+      i {
+        color: $main-color;
+      }
+      a {
+        color: $main-color;
+        text-decoration: none;
+      }
+    }
+  }
+}

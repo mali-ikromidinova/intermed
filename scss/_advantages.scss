@@ -1,0 +1,48 @@
+.advantages {
+  margin: 60px 0;
+  padding: 80px 30px;
+  &-about-company {
+    margin: 30px 0;
+    padding: 0;
+  }
+  &-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 80px;
+  }
+  &-item {
+    width: 280px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 40px 18px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    &-icon {
+      display: block;
+      margin: 0 auto;
+      width: 55px;
+      height: 55px;
+    }
+    &-title {
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 34px;
+      text-align: center;
+      color: #242424;
+    }
+    &-descr {
+      margin-top: 12px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #828282;
+    }
+  }
+}
